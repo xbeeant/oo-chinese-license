@@ -3,7 +3,7 @@
 url=git@github.com:ONLYOFFICE/plugin-html.git
 [submodule "plugin-highlightcode"]
 	path = plugin-highlightcode
-url=git@github.com:plugin-highlightcode.git
+url=https://github.com/ONLYOFFICE/plugin-highlightcode.git
 [submodule "plugin-autocomplete"]
 	path = plugin-autocomplete
 url=git@github.com:ONLYOFFICE/plugin-autocomplete.git
