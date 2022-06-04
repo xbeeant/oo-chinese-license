@@ -3,7 +3,7 @@
 url=git@github.com:ONLYOFFICE/plugin-html.git
 [submodule "plugin-highlightcode"]
 	path = plugin-highlightcode
-url=https://github.com/ONLYOFFICE/plugin-highlightcode.git
+url=git@github.com:ONLYOFFICE/plugin-highlightcode.git
 [submodule "plugin-autocomplete"]
 	path = plugin-autocomplete
 url=git@github.com:ONLYOFFICE/plugin-autocomplete.git
@@ -15,4 +15,4 @@ url=git@github.com:ONLYOFFICE/plugin-doc2md.git
 url=git@github.com:ONLYOFFICE/plugin-wordscounter.git
 [submodule "onlyoffice-chinese-fonts"]
 	path = onlyoffice-chinese-fonts
-url=https://github.com/funggtopp/onlyoffice-chinese-fonts.git
+	url = git@github.com:funggtopp/onlyoffice-chinese-fonts.git
