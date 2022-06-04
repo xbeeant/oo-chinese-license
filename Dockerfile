@@ -1,5 +1,5 @@
 # 镜像来源
-FROM alehoho/oo-ce-docker-license:latest
+FROM xbeeant/oo-unlimit:7.1.0.215
 
 # 移除一些插件
 RUN rm -rf /var/www/onlyoffice/documentserver/sdkjs-plugins/youtube
