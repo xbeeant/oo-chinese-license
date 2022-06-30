@@ -14,7 +14,7 @@ RUN rm -rf /usr/share/fonts/truetype/dejavu
 RUN rm -rf /usr/share/fonts/truetype/liberation
 
 # 导入中文字体
-ADD ["onlyoffice-chinese-fonts/fonts for oo6/*.ttf", "/usr/share/fonts/truetype/custom/"] 
+ADD ["onlyoffice-chinese-fonts/fonts for oo6/*", "/usr/share/fonts/truetype/custom/"] 
 
 # 添加一些插件
 ADD plugin-html /var/www/onlyoffice/documentserver/sdkjs-plugins/html
