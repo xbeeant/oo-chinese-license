@@ -14,21 +14,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Login to DockerHub
-      uses: docker/login-action@v1
+    - uses: actions/checkout@v3
+    - name: Build and push Docker images
+      uses: docker/build-push-action@v1
       with:
-        username: ${{ secrets.DOCKERHUB_USERNAME }}
-        password: ${{ secrets.DOCKER_TOKEN }}
-    - name: Build image and push to Docker Hub and GitHub Container Registry
-      uses: docker/build-push-action@v2
-      with:
-        # relative path to the place where source code with Dockerfile is located
-        context: ./
-        # Note: tags has to be all lower-case
-        tags: |
-          xbeeant/oo-chinese-unlimit:latest
-        # build on feature branches, push only on main branch
-        push: ${{ github.ref == 'refs/heads/main' }}
-
-    - name: Image digest
-      run: echo ${{ steps.docker_build.outputs.digest }}
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        repository: xbeeant/oo-unlimit
+        tags: latest
