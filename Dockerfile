@@ -1,5 +1,5 @@
 # 镜像来源
-FROM xbeeant/oo-unlimit:7.1.1.23
+FROM xbeeant/oo-unlimit:7.2.1.34
 
 # 移除一些插件
 RUN rm -rf /var/www/onlyoffice/documentserver/sdkjs-plugins/youtube
@@ -27,10 +27,7 @@ RUN sed -i "s/https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/2.2.2\/jquery.m
 
 # 修改文件缓存时间
 # 修改24小时为1小时
-RUN sed -i  "s/86400/3600/" /etc/onlyoffice/documentserver/default.json
-
-
-
+# RUN sed -i  "s/86400/3600/" /etc/onlyoffice/documentserver/default.json
 
 EXPOSE 80 443
 
