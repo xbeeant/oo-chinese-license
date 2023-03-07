@@ -1,18 +1,18 @@
 [submodule "plugin-html"]
 	path = plugin-html
-url=git@github.com:ONLYOFFICE/plugin-html.git
+url=https://github.com/ONLYOFFICE/plugin-html.git
 [submodule "plugin-highlightcode"]
 	path = plugin-highlightcode
-url=git@github.com:ONLYOFFICE/plugin-highlightcode.git
+url=https://github.com/ONLYOFFICE/plugin-highlightcode.git
 [submodule "plugin-autocomplete"]
 	path = plugin-autocomplete
-url=git@github.com:ONLYOFFICE/plugin-autocomplete.git
+url=https://github.com/ONLYOFFICE/plugin-autocomplete.git
 [submodule "plugin-doc2md"]
 	path = plugin-doc2md
-url=git@github.com:ONLYOFFICE/plugin-doc2md.git
+url=https://github.com/ONLYOFFICE/plugin-doc2md.git
 [submodule "plugin-wordscounter"]
 	path = plugin-wordscounter
-url=git@github.com:ONLYOFFICE/plugin-wordscounter.git
+url=https://github.com/ONLYOFFICE/plugin-wordscounter.git
 [submodule "onlyoffice-chinese-fonts"]
 	path = onlyoffice-chinese-fonts
-	url = git@github.com:funggtopp/onlyoffice-chinese-fonts.git
+	url = https://github.com/funggtopp/onlyoffice-chinese-fonts.git
