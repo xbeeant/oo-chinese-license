@@ -1,5 +1,5 @@
 # 镜像来源
-FROM xbeeant/oo-unlimit:7.3.2.8
+FROM xbeeant/oo-unlimit:7.3.3.50
 
 # 移除一些插件
 RUN rm -rf /var/www/onlyoffice/documentserver/sdkjs-plugins/youtube

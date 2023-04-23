@@ -23,4 +23,4 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: xbeeant/oo-chinese-unlimit
-        tags: 7.3.2.8
+        tags: 7.3.3.50
